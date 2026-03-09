@@ -1,0 +1,67 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# HuggingFace / training outputs
+# ======================
+outputs/
+output/
+checkpoints/
+runs/
+logs/
+
+# ======================
+# Model weights
+# ======================
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ======================
+# Adapter / LoRA
+# ======================
+adapter_model.safetensors
+adapter_config.json
+
+# ======================
+# Training artifacts
+# ======================
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# ======================
+# Dataset cache
+# ======================
+.cache/
+datasets/
+*.arrow
+
+# ======================
+# Environment
+# ======================
+.env
+.venv
+venv/
+env/
+
+# ======================
+# System files
+# ======================
+.DS_Store
+Thumbs.db
