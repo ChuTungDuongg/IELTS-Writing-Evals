@@ -1,0 +1,21 @@
+{
+  "eda": [
+    "band_by_split.png",
+    "band_distribution.png",
+    "dataset_overview_table.png",
+    "discourse_feature_boxplots.png",
+    "feature_trends_by_band.png",
+    "source_split_summary.png",
+    "trait_correlation_heatmap.png",
+    "trait_distributions_grid.png",
+    "word_count_by_band.png"
+  ],
+  "pr": [
+    "discourse_feature_space.png",
+    "pca_feature_space.png",
+    "tsne_feature_space.png"
+  ],
+  "results": [
+    "model_comparison.png"
+  ]
+}

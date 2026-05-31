@@ -1,0 +1,11 @@
+model,mean_trait_qwk,mean_trait_mae,overall_qwk,overall_mae
+BiLSTM essay-only,0.3671,1.2802,0.369,1.2799
+BiLSTM + discourse,0.3948,1.2357,0.394,1.2387
+BERT essay-only,0.5544,1.1835,0.5592,1.168
+BERT + discourse,0.5818,1.0254,0.5892,1.0041
+GPT essay-only,0.6158,0.9595,0.6189,0.9407
+GPT + discourse,0.6184,0.957,0.6246,0.934
+Qwen 3B LoRA16 + discourse,0.682,0.8916,0.6916,0.8763
+Qwen 3B LoRA32 + discourse,0.6737,0.8915,0.6795,0.8876
+Qwen 7B LoRA16 + discourse,0.6937,0.8567,0.6987,0.8495
+Qwen 3B LoRA16 + extra discourse,0.6996,0.882,0.7052,0.8649
